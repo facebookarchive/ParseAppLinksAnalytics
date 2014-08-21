@@ -1,0 +1,35 @@
+*~
+.DS_Store
+*.swp
+.arcconfig
+.metadata/
+
+bin/
+gen/
+assets/
+
+# Eclipse
+tmp/
+.classpath
+.settings/
+.project
+
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+# Gradle
+*/build/
+.gradle/
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+local.properties
+proguard-project.txt

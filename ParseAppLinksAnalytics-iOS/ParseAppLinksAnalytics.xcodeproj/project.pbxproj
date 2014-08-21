@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8178085B19A2EB6300CD2127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8178085A19A2EB6300CD2127 /* Foundation.framework */; };
+		8178087E19A2EB7000CD2127 /* ParseAppLinksAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91F199AA88E00B50F35 /* ParseAppLinksAnalytics.m */; };
+		8178088319A2EBF500CD2127 /* PAAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91A199AA88E00B50F35 /* PAAnalytics.m */; };
+		8178088419A2EBF800CD2127 /* PAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91C199AA88E00B50F35 /* PAConstants.m */; };
+		8178088619A2EC2300CD2127 /* ParseAppLinksAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91E199AA88E00B50F35 /* ParseAppLinksAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8178088719A2EC2300CD2127 /* PAAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB919199AA88E00B50F35 /* PAAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8178088819A2EC2800CD2127 /* PAConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91B199AA88E00B50F35 /* PAConstants.h */; };
+		81B769E01982D88C00A0C12E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		81DDB925199AA88E00B50F35 /* PAAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB919199AA88E00B50F35 /* PAAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DDB926199AA88E00B50F35 /* PAAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB919199AA88E00B50F35 /* PAAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DDB927199AA88E00B50F35 /* PAAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91A199AA88E00B50F35 /* PAAnalytics.m */; };
+		81DDB928199AA88E00B50F35 /* PAAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91A199AA88E00B50F35 /* PAAnalytics.m */; };
+		81DDB929199AA88E00B50F35 /* PAConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91B199AA88E00B50F35 /* PAConstants.h */; };
+		81DDB92A199AA88E00B50F35 /* PAConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91B199AA88E00B50F35 /* PAConstants.h */; };
+		81DDB92B199AA88E00B50F35 /* PAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91C199AA88E00B50F35 /* PAConstants.m */; };
+		81DDB92C199AA88E00B50F35 /* PAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91C199AA88E00B50F35 /* PAConstants.m */; };
+		81DDB92D199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91D199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch */; };
+		81DDB92E199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91D199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch */; };
+		81DDB92F199AA88E00B50F35 /* ParseAppLinksAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91E199AA88E00B50F35 /* ParseAppLinksAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DDB930199AA88E00B50F35 /* ParseAppLinksAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91E199AA88E00B50F35 /* ParseAppLinksAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DDB931199AA88E00B50F35 /* ParseAppLinksAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91F199AA88E00B50F35 /* ParseAppLinksAnalytics.m */; };
+		81DDB932199AA88E00B50F35 /* ParseAppLinksAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB91F199AA88E00B50F35 /* ParseAppLinksAnalytics.m */; };
+		81DDB935199AA8D300B50F35 /* PAAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB919199AA88E00B50F35 /* PAAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DDB936199AA8D900B50F35 /* ParseAppLinksAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DDB91E199AA88E00B50F35 /* ParseAppLinksAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DDB93A199AA92300B50F35 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DDB939199AA92300B50F35 /* Parse.framework */; };
+		81DDB93B199AA92300B50F35 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DDB939199AA92300B50F35 /* Parse.framework */; };
+		81DDB957199AB89C00B50F35 /* ParseAppLinksAnalyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DDB924199AA88E00B50F35 /* ParseAppLinksAnalyticsTests.m */; };
+		81DDB958199AB8AC00B50F35 /* ParseAppLinksAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B769231982C7C800A0C12E /* ParseAppLinksAnalytics.framework */; };
+		81DDB959199AB92400B50F35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81DDB921199AA88E00B50F35 /* InfoPlist.strings */; };
+		81DDB95A199ABAA200B50F35 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DDB939199AA92300B50F35 /* Parse.framework */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B7694F1982C9BB00A0C12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "CrashReporting-iOS";
+		};
+		81B769E51982D8B200A0C12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B769A11982D88C00A0C12E;
+			remoteInfo = "CrashReporting-iOSSimulator";
+		};
+		81DDB952199AB88400B50F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B769221982C7C800A0C12E;
+			remoteInfo = "ParseAppLinksAnalytics-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8178085919A2EB6300CD2127 /* libParseAppLinksAnalytics-iOS-Universal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libParseAppLinksAnalytics-iOS-Universal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8178085A19A2EB6300CD2127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8178086819A2EB6300CD2127 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8178086B19A2EB6300CD2127 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		81B769231982C7C800A0C12E /* ParseAppLinksAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseAppLinksAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B769391982C7C800A0C12E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81B769E41982D88C00A0C12E /* libParseAppLinksAnalytics-iOS-Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libParseAppLinksAnalytics-iOS-Simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DDB919199AA88E00B50F35 /* PAAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAnalytics.h; sourceTree = "<group>"; };
+		81DDB91A199AA88E00B50F35 /* PAAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAnalytics.m; sourceTree = "<group>"; };
+		81DDB91B199AA88E00B50F35 /* PAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAConstants.h; sourceTree = "<group>"; };
+		81DDB91C199AA88E00B50F35 /* PAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAConstants.m; sourceTree = "<group>"; };
+		81DDB91D199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ParseAppLinksAnalytics-Prefix.pch"; sourceTree = "<group>"; };
+		81DDB91E199AA88E00B50F35 /* ParseAppLinksAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseAppLinksAnalytics.h; sourceTree = "<group>"; };
+		81DDB91F199AA88E00B50F35 /* ParseAppLinksAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseAppLinksAnalytics.m; sourceTree = "<group>"; };
+		81DDB922199AA88E00B50F35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81DDB923199AA88E00B50F35 /* ParseAppLinksAnalyticsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ParseAppLinksAnalyticsTests-Info.plist"; sourceTree = "<group>"; };
+		81DDB924199AA88E00B50F35 /* ParseAppLinksAnalyticsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseAppLinksAnalyticsTests.m; sourceTree = "<group>"; };
+		81DDB939199AA92300B50F35 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		81DDB93D199AA96500B50F35 /* ParseAppLinksAnalytics-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ParseAppLinksAnalytics-iOS-Info.plist"; path = "Resources/ParseAppLinksAnalytics-iOS-Info.plist"; sourceTree = "<group>"; };
+		81DDB942199AB88400B50F35 /* ParseAppLinksAnalytics-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ParseAppLinksAnalytics-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libParseAppLinksAnalytics-iOS-Device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libParseAppLinksAnalytics-iOS-Device.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8178085619A2EB6300CD2127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8178085B19A2EB6300CD2127 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B769DF1982D88C00A0C12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB93B199AA92300B50F35 /* Parse.framework in Frameworks */,
+				81B769E01982D88C00A0C12E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DDB93F199AB88400B50F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB958199AB8AC00B50F35 /* ParseAppLinksAnalytics.framework in Frameworks */,
+				81DDB95A199ABAA200B50F35 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB93A199AA92300B50F35 /* Parse.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libParseAppLinksAnalytics-iOS-Device.a */,
+				81B769231982C7C800A0C12E /* ParseAppLinksAnalytics.framework */,
+				81B769E41982D88C00A0C12E /* libParseAppLinksAnalytics-iOS-Simulator.a */,
+				81DDB942199AB88400B50F35 /* ParseAppLinksAnalytics-iOS-Tests.xctest */,
+				8178085919A2EB6300CD2127 /* libParseAppLinksAnalytics-iOS-Universal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Breakpad */ = {
+			isa = PBXGroup;
+			children = (
+				81DDB918199AA88E00B50F35 /* ParseAppLinksAnalytics */,
+				81DDB920199AA88E00B50F35 /* ParseAppLinksAnalyticsTests */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = Breakpad;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81DDB939199AA92300B50F35 /* Parse.framework */,
+				81DDB93C199AA92600B50F35 /* System Frameworks */,
+				8178085A19A2EB6300CD2127 /* Foundation.framework */,
+				8178086819A2EB6300CD2127 /* XCTest.framework */,
+				8178086B19A2EB6300CD2127 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81DDB918199AA88E00B50F35 /* ParseAppLinksAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				81DDB91E199AA88E00B50F35 /* ParseAppLinksAnalytics.h */,
+				81DDB91F199AA88E00B50F35 /* ParseAppLinksAnalytics.m */,
+				81DDB919199AA88E00B50F35 /* PAAnalytics.h */,
+				81DDB91A199AA88E00B50F35 /* PAAnalytics.m */,
+				81DDB91B199AA88E00B50F35 /* PAConstants.h */,
+				81DDB91C199AA88E00B50F35 /* PAConstants.m */,
+				81DDB937199AA8E000B50F35 /* Other Sources */,
+			);
+			path = ParseAppLinksAnalytics;
+			sourceTree = "<group>";
+		};
+		81DDB920199AA88E00B50F35 /* ParseAppLinksAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				81DDB924199AA88E00B50F35 /* ParseAppLinksAnalyticsTests.m */,
+				81DDB938199AA8E700B50F35 /* Other Sources */,
+			);
+			path = ParseAppLinksAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		81DDB937199AA8E000B50F35 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				81DDB91D199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch */,
+				81DDB93D199AA96500B50F35 /* ParseAppLinksAnalytics-iOS-Info.plist */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		81DDB938199AA8E700B50F35 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				81DDB921199AA88E00B50F35 /* InfoPlist.strings */,
+				81DDB923199AA88E00B50F35 /* ParseAppLinksAnalyticsTests-Info.plist */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		81DDB93C199AA92600B50F35 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				81B769391982C7C800A0C12E /* XCTest.framework */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8178088519A2EC1D00CD2127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8178088819A2EC2800CD2127 /* PAConstants.h in Headers */,
+				8178088719A2EC2300CD2127 /* PAAnalytics.h in Headers */,
+				8178088619A2EC2300CD2127 /* ParseAppLinksAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B769521982CA5600A0C12E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB935199AA8D300B50F35 /* PAAnalytics.h in Headers */,
+				81DDB936199AA8D900B50F35 /* ParseAppLinksAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B769A21982D88C00A0C12E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB926199AA88E00B50F35 /* PAAnalytics.h in Headers */,
+				81DDB92E199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch in Headers */,
+				81DDB92A199AA88E00B50F35 /* PAConstants.h in Headers */,
+				81DDB930199AA88E00B50F35 /* ParseAppLinksAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB925199AA88E00B50F35 /* PAAnalytics.h in Headers */,
+				81DDB92D199AA88E00B50F35 /* ParseAppLinksAnalytics-Prefix.pch in Headers */,
+				81DDB929199AA88E00B50F35 /* PAConstants.h in Headers */,
+				81DDB92F199AA88E00B50F35 /* ParseAppLinksAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8178085819A2EB6300CD2127 /* ParseAppLinksAnalytics-iOS-Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8178087C19A2EB6300CD2127 /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Universal" */;
+			buildPhases = (
+				8178085519A2EB6300CD2127 /* Sources */,
+				8178085619A2EB6300CD2127 /* Frameworks */,
+				8178088519A2EC1D00CD2127 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParseAppLinksAnalytics-iOS-Universal";
+			productName = "ParseAppLinksAnalytics-iOS-Universal";
+			productReference = 8178085919A2EB6300CD2127 /* libParseAppLinksAnalytics-iOS-Universal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81B769221982C7C800A0C12E /* ParseAppLinksAnalytics-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B769471982C7C800A0C12E /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS" */;
+			buildPhases = (
+				81B769521982CA5600A0C12E /* Headers */,
+				81B769511982C9CC00A0C12E /* Package Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B769E61982D8B200A0C12E /* PBXTargetDependency */,
+				81B769501982C9BB00A0C12E /* PBXTargetDependency */,
+			);
+			name = "ParseAppLinksAnalytics-iOS";
+			productName = "ParseCrashReporting-iOS";
+			productReference = 81B769231982C7C800A0C12E /* ParseAppLinksAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81B769A11982D88C00A0C12E /* ParseAppLinksAnalytics-iOS-Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B769E11982D88C00A0C12E /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Simulator" */;
+			buildPhases = (
+				81B769A21982D88C00A0C12E /* Headers */,
+				81B769C61982D88C00A0C12E /* Sources */,
+				81B769DF1982D88C00A0C12E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParseAppLinksAnalytics-iOS-Simulator";
+			productName = Breakpad;
+			productReference = 81B769E41982D88C00A0C12E /* libParseAppLinksAnalytics-iOS-Simulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81DDB941199AB88400B50F35 /* ParseAppLinksAnalytics-iOS-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DDB956199AB88400B50F35 /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Tests" */;
+			buildPhases = (
+				81DDB93E199AB88400B50F35 /* Sources */,
+				81DDB93F199AB88400B50F35 /* Frameworks */,
+				81DDB940199AB88400B50F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81DDB953199AB88400B50F35 /* PBXTargetDependency */,
+			);
+			name = "ParseAppLinksAnalytics-iOS-Tests";
+			productName = "ParseAppLinksAnalytics-iOS-Tests";
+			productReference = 81DDB942199AB88400B50F35 /* ParseAppLinksAnalytics-iOS-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2AAC07D0554694100DB518D /* ParseAppLinksAnalytics-iOS-Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Device" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParseAppLinksAnalytics-iOS-Device";
+			productName = Breakpad;
+			productReference = D2AAC07E0554694100DB518D /* libParseAppLinksAnalytics-iOS-Device.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Parse Inc.";
+				TargetAttributes = {
+					81DDB941199AB88400B50F35 = {
+						TestTargetID = 81B769221982C7C800A0C12E;
+					};
+				};
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ParseAppLinksAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				da,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
+				no,
+				sl,
+				sv,
+				tr,
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* Breakpad */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B769221982C7C800A0C12E /* ParseAppLinksAnalytics-iOS */,
+				8178085819A2EB6300CD2127 /* ParseAppLinksAnalytics-iOS-Universal */,
+				D2AAC07D0554694100DB518D /* ParseAppLinksAnalytics-iOS-Device */,
+				81B769A11982D88C00A0C12E /* ParseAppLinksAnalytics-iOS-Simulator */,
+				81DDB941199AB88400B50F35 /* ParseAppLinksAnalytics-iOS-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81DDB940199AB88400B50F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB959199AB92400B50F35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81B769511982C9CC00A0C12E /* Package Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Package Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORK=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\nPLATFORM=\"iOS\"\n\nlipo \\\n\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PRODUCT_NAME}-${PLATFORM}-Device.a\" \\\n\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PRODUCT_NAME}-${PLATFORM}-Simulator.a\" \\\n-create -output \"${FRAMEWORK}/Versions/Current/${PRODUCT_NAME}\"\n\ncd \"${FRAMEWORK}\" && ln -sf \"Versions/Current/${PRODUCT_NAME}\" ./";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8178085519A2EB6300CD2127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8178088419A2EBF800CD2127 /* PAConstants.m in Sources */,
+				8178087E19A2EB7000CD2127 /* ParseAppLinksAnalytics.m in Sources */,
+				8178088319A2EBF500CD2127 /* PAAnalytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B769C61982D88C00A0C12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB92C199AA88E00B50F35 /* PAConstants.m in Sources */,
+				81DDB928199AA88E00B50F35 /* PAAnalytics.m in Sources */,
+				81DDB932199AA88E00B50F35 /* ParseAppLinksAnalytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DDB93E199AB88400B50F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB957199AB89C00B50F35 /* ParseAppLinksAnalyticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDB92B199AA88E00B50F35 /* PAConstants.m in Sources */,
+				81DDB927199AA88E00B50F35 /* PAAnalytics.m in Sources */,
+				81DDB931199AA88E00B50F35 /* ParseAppLinksAnalytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B769501982C9BB00A0C12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* ParseAppLinksAnalytics-iOS-Device */;
+			targetProxy = 81B7694F1982C9BB00A0C12E /* PBXContainerItemProxy */;
+		};
+		81B769E61982D8B200A0C12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B769A11982D88C00A0C12E /* ParseAppLinksAnalytics-iOS-Simulator */;
+			targetProxy = 81B769E51982D8B200A0C12E /* PBXContainerItemProxy */;
+		};
+		81DDB953199AB88400B50F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B769221982C7C800A0C12E /* ParseAppLinksAnalytics-iOS */;
+			targetProxy = 81DDB952199AB88400B50F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81DDB921199AA88E00B50F35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81DDB922199AA88E00B50F35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseAppLinksAnalytics/ParseAppLinksAnalytics-Prefix.pch";
+				PRODUCT_NAME = "$(PROJECT_NAME)-iOS-Device";
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseAppLinksAnalytics/ParseAppLinksAnalytics-Prefix.pch";
+				PRODUCT_NAME = "$(PROJECT_NAME)-iOS-Device";
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = "/tmp/$(PRODUCT_NAME).dst";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILD_DIR)/Headers/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "../Headers/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = "/tmp/$(PRODUCT_NAME).dst";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILD_DIR)/Headers/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "../Headers/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		8178087819A2EB6300CD2127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				PRODUCT_NAME = "$(PROJECT_NAME)-iOS-Universal";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8178087919A2EB6300CD2127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(PROJECT_NAME)-iOS-Universal";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B769481982C7C800A0C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EFFECTIVE_PLATFORM_NAME = "-iphone";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "ParseAppLinksAnalytics/Resources/ParseAppLinksAnalytics-iOS-Info.plist";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCT_DIR)../Headers";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81B769491982C7C800A0C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EFFECTIVE_PLATFORM_NAME = "-iphone";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "ParseAppLinksAnalytics/Resources/ParseAppLinksAnalytics-iOS-Info.plist";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCT_DIR)../Headers";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81B769E21982D88C00A0C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseAppLinksAnalytics/ParseAppLinksAnalytics-Prefix.pch";
+				PRODUCT_NAME = "$(PROJECT_NAME)-iOS-Simulator";
+				SDKROOT = iphonesimulator;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+			};
+			name = Debug;
+		};
+		81B769E31982D88C00A0C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParseAppLinksAnalytics/ParseAppLinksAnalytics-Prefix.pch";
+				PRODUCT_NAME = "$(PROJECT_NAME)-iOS-Simulator";
+				SDKROOT = iphonesimulator;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+			};
+			name = Release;
+		};
+		81DDB954199AB88400B50F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/../$(CONFIGURATION)-iphone/ParseAppLinksAnalytics.framework/Versions/A/ParseAppLinksAnalytics";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(BUILD_DIR)/$(CONFIGURATION)-iphone",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ParseAppLinksAnalyticsTests/ParseAppLinksAnalyticsTests-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		81DDB955199AB88400B50F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/../$(CONFIGURATION)-iphone/ParseAppLinksAnalytics.framework/Versions/A/ParseAppLinksAnalytics";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(BUILD_DIR)/$(CONFIGURATION)-iphone",
+					"$(PROJECT_DIR)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ParseAppLinksAnalyticsTests/ParseAppLinksAnalyticsTests-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ParseAppLinksAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8178087C19A2EB6300CD2127 /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8178087819A2EB6300CD2127 /* Debug */,
+				8178087919A2EB6300CD2127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B769471982C7C800A0C12E /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B769481982C7C800A0C12E /* Debug */,
+				81B769491982C7C800A0C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B769E11982D88C00A0C12E /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B769E21982D88C00A0C12E /* Debug */,
+				81B769E31982D88C00A0C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DDB956199AB88400B50F35 /* Build configuration list for PBXNativeTarget "ParseAppLinksAnalytics-iOS-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DDB954199AB88400B50F35 /* Debug */,
+				81DDB955199AB88400B50F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

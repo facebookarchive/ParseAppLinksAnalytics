@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+
+group = 'com.parse.parse'
+version = '1.0.0'
+
+dependencies {
+    provided 'com.android.support:support-v4:19.1.+'
+    compile files('libs/Parse-1.5.1.jar')
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 19
+        versionCode 1
+        versionName project.version
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+}
+
+android.libraryVariants.all { variant ->
+    def name = variant.buildType.name
+    def task = project.tasks.create(name: "jar${name.capitalize()}", type: Jar) {
+        dependsOn variant.javaCompile
+        from variant.javaCompile.destinationDir
+
+        manifest {
+            attributes(
+                    "Bundle-Name": 'parse-applinks-analytics',
+                    "Bundle-Version": project.version
+            )
+        }
+
+        exclude '**/R.class'
+        exclude '**/R\$*.class'
+        exclude '**/Manifest.class'
+        exclude '**/Manifest\$*.class'
+        exclude '**/BuildConfig.class'
+    }
+
+    if (name.equals(com.android.builder.core.BuilderConstants.RELEASE)) {
+        artifacts.add('archives', task);
+    }
+}
