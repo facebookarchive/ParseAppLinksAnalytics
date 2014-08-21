@@ -16,7 +16,7 @@ The custom event data you'll see in Parse Analytics correspond to the following:
 
   + `AppLinksInbound`: your app is opened via an App Links URL.
   + `AppLinksOutbound`: your app navigates to another app via an App Links URL.
-  + `AppLinksReturning`: an App Links URL returns back to your app after a previous outbound App Links URL.
+  + `AppLinksReturning`: your app navigates back to the referring app via the return App Links URL.
 
 ## Installation
 
