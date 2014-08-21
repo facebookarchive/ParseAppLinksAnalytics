@@ -10,7 +10,7 @@ Once you've installed the library, you can add the following line in your projec
 [PAAnalytics enableTracking];
 ```
 
-Note that these events are only triggered if the App Links are constructed using the [Bolts SDK](https://github.com/BoltsFramework/).
+Note that these events are only triggered if the App Links are processed using the [Bolts SDK](https://github.com/BoltsFramework/).
 
 The custom event data you'll see in Parse Analytics correspond to the following:
 
